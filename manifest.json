@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,	
+	"name" : "AVB",
+	"description" : "My First Extension",
+	"version" : "0.1",
+	"background": {"page": "background.html"},
+	"browser_action" : {
+		"default_popup" : "popup.html",
+		"default_icon" : "icon.gif",
+		"scripts": ["script.js"]
+	},
+	"permissions" : ["notifications"]
+}
